@@ -1,0 +1,89 @@
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <style>
+
+        .main{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-image: url("./background.jpg");
+            background-color: #cccccc;
+            background-size:cover;  
+        }
+        .header{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            align-self: flex-start;
+        }
+        .header_item{
+            height: 10rem;
+            color: white;
+            font-size: large;
+            padding: 1rem;
+            margin: 1rem;
+        }
+        .mid{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            margin: 1rem;
+        }
+
+
+        .forBtns{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1rem;
+        }
+        .btn{
+            width: 8rem;
+            height: 2rem;
+            border-radius: 1rem;
+            border: 1px solid aqua;
+            text-align: center;
+            margin: 1rem;
+        }
+
+        .btn:hover{
+            cursor: pointer;
+            background-color: aqua;
+        }
+        </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header_item">Home</div>
+            <div class="header_item">Bedroom</div>
+            <div class="header_item">Dinning</div>
+            <div class="header_item">Kitchen</div>
+            <div class="header_item">Backyard</div>
+        </div>
+
+        <div class="mid">
+            <h1>Design your House!</h1>
+            <h4>Subscribe easy tutorials!</h4>
+            <div class="forBtns">
+                <div class="btn">Watch more</div>
+                <div class="btn">Subcribe</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+```
